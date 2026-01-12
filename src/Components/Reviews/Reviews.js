@@ -1,0 +1,69 @@
+import { useState } from "react";
+import { customerReviews } from "../../Scripts/reviews";
+import "./Reviews.css";
+import lb from "../../Assets/lb.png";
+import rb from "../../Assets/rb.png";
+
+function Reviews() {
+  let rMessage, rName, rLocation;
+  const reviewsLength = customerReviews.length - 1;
+  const [review, setReview] = useState(0);
+
+  // back to previous review
+  const backBtnClick = () => {
+    setReview(review <= 0 ? reviewsLength : review - 1);
+    handleReviewsUpdation();
+  };
+
+  // go to newer review
+  const frontBtnClick = () => {
+    setReview(review >= reviewsLength ? 0 : review + 1);
+    handleReviewsUpdation();
+  };
+
+  // update reviews
+  const handleReviewsUpdation = () => {
+    const reviewMessage = customerReviews[review];
+    rName = reviewMessage.name;
+    rLocation = reviewMessage.location;
+    rMessage = reviewMessage.message;
+  };
+
+  // list review on visit
+  handleReviewsUpdation();
+
+  return (
+    <div className="review-section" id="reviews">
+      <div className="rw-text-content">
+        <p className="rw-text-title">
+          Growing Family of <span className="rw-text-num">4000+ Users</span>
+        </p>
+
+        <p className="rw-text-desc">Real stories from real people</p>
+
+        <p className="rw-text-format">
+          <span className="rw-text-quote1">''</span>
+          <span className="rw-review">{rMessage}</span>
+          <span className="rw-text-quote2">''</span>
+        </p>
+
+        <div className="rw-authors">
+          <div className="rw-names">
+            <p className="rw-reviewer-name">{rName}</p>
+            <p className="rw-reviewer-place">{rLocation}</p>
+          </div>
+          <div>
+            <button className="rw-btn" type="button" onClick={backBtnClick}>
+              <img src={lb} alt="lb" />
+            </button>
+            <button className="rw-btn" type="button" onClick={frontBtnClick}>
+              <img src={rb} alt="rb" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Reviews;

@@ -22,14 +22,16 @@
   letter-spacing: 0.7px;
 }
 .text-title {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   color: black;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: bold;
 }
 .text-descritpion {
-  width: 475px;
+  width: 100%;
+  max-width: 475px;
   margin: 32px 0;
   color: rgb(77, 75, 75);
   font-family: "Rubik", sans-serif;
@@ -152,7 +154,19 @@
     flex: 1 1 50%;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px 16px;
+  }
+  .text-stats {
+    justify-content: center;
+  }
+  .text-stats-container {
+    flex: 1 1 100%;
+  }
+}
 @media screen and (max-width: 735px) {
   .text-headline {
     font-size: 20px;

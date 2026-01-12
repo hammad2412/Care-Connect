@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Care-Connect/static/css/main.1670eddd.css",
+    "main.js": "/Care-Connect/static/js/main.9ea6e828.js",
+    "static/media/doctor-group.png": "/Care-Connect/static/media/doctor-group.1285ec11ebcdcd0c98b7.png",
+    "static/media/profile-01.png": "/Care-Connect/static/media/profile-01.a29a7806afed2ba08add.png",
+    "static/media/profile-02.png": "/Care-Connect/static/media/profile-02.491df0f7cde2165b4242.png",
+    "static/media/profile-04.png": "/Care-Connect/static/media/profile-04.68422b6562fb3722157f.png",
+    "static/media/profile-03.png": "/Care-Connect/static/media/profile-03.3e73ccdf19af0b2a2373.png",
+    "static/media/doctor-about.png": "/Care-Connect/static/media/doctor-about.1745e484168d46cb3ef2.png",
+    "static/media/doctor-hero01.png": "/Care-Connect/static/media/doctor-hero01.648e7705626bd88c4378.png",
+    "static/media/logo.png": "/Care-Connect/static/media/logo.98d6a8dcb8ffe529812a.png",
+    "static/media/lb.png": "/Care-Connect/static/media/lb.33464a312130883b222b.png",
+    "static/media/rb.png": "/Care-Connect/static/media/rb.de16224a1e4758ce5a48.png",
+    "index.html": "/Care-Connect/index.html",
+    "main.1670eddd.css.map": "/Care-Connect/static/css/main.1670eddd.css.map",
+    "main.9ea6e828.js.map": "/Care-Connect/static/js/main.9ea6e828.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1670eddd.css",
+    "static/js/main.9ea6e828.js"
+  ]
+}

@@ -31,19 +31,23 @@ function BookAppointment() {
         </p>
 
         <p className="ba-checks ba-check-first">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#54de54" }} />{" "}
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#54de54" }} />
+          {"  "}
           Best Certified Doctors
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#54de54" }} />{" "}
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#54de54" }} />
+          {"  "}
           24/7 Emergency Assistance
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#54de54" }} />{" "}
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#54de54" }} />
+          {"  "}
           Instance Live Chat Support
         </p>
         <p className="ba-checks ba-check-last">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#54de54" }} />{" "}
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#54de54" }} />
+          {"  "}
           Fast Enrollment Process
         </p>
 

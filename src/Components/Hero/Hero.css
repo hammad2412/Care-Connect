@@ -151,7 +151,7 @@
   }
 
   .text-stats-container {
-    flex: 1 1 50%;
+    flex: 1 1 45%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -164,7 +164,7 @@
     justify-content: center;
   }
   .text-stats-container {
-    flex: 1 1 100%;
+    flex: 1 1 48%;
   }
 }
 @media screen and (max-width: 735px) {

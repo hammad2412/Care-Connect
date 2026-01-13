@@ -65,16 +65,16 @@ function Footer() {
             <p className="ft-list-title">Talk To Us</p>
             <ul className="ft-list-items">
               <li>
-                <a href="/">support@careconnect.com</a>
+                <Link to={"/appointment"}>support@careconnect.com</Link>
               </li>
               <li>
-                <a href="/appointment">appointment@careconnect.com</a>
+                <Link to={"/appointment"}>appointment@careconnect.com</Link>
               </li>
               <li>
-                <a href="/appointment">+91 99838 56789</a>
+                <Link to={"/appointment"}>+91 99838 56789</Link>
               </li>
               <li>
-                <a href="/appointment">+91 99838 98745</a>
+                <Link to={"/appointment"}>+91 99838 98745</Link>
               </li>
             </ul>
           </div>

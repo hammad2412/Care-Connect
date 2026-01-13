@@ -24,23 +24,23 @@ function Doctors() {
         <DoctorCard
           img={profile1}
           name="Dr. Chetan Pareek"
-          title="General Surgeons"
-          stars="4.9"
+          title="General Surgeon"
+          stars="4.8"
           reviews="1800"
         />
         <DoctorCard
           img={profile2}
           name="Dr. Hiral Narwal"
-          title="Hematologists"
-          stars="4.8"
+          title="Hematologist"
+          stars="4.7"
           reviews="700"
         />
         <DoctorCard
           img={profile3}
           name="Dr. Priyanka Bunker"
-          title="Endocrinologists"
-          stars="4.7"
-          reviews="450"
+          title="Endocrinologist"
+          stars="4.9"
+          reviews="1200"
         />
         <DoctorCard
           img={profile4}

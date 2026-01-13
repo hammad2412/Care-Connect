@@ -7,7 +7,7 @@ export const customerReviews = [
   },
   {
     name: "Pragati",
-    location: "Patna, Bihar",
+    location: "Amritsar, Punjab",
     message:
       "Care Conect bohot achha platform hai, ghar bethe bethe sab ho jata hai kahi jaane ki zarurat nahi hai. Doctors bhi achhe se sunte hain.",
   },

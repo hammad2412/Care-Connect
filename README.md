@@ -100,7 +100,7 @@ and navigate seamlessly across multiple pages using React Router.
 <summary>📷 More Screenshots</summary>
 
 <h4>📱 Mobile View</h4>
-<img src="./screenshots/mobile.png" width="80%"/>
+<img src="./screenshots/mobile.jpeg" width="40%"/>
 
 <h4> About </h4>
 <img src="./screenshots/about-us.png" width="80%"/>
